@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
-import Header from './componentes/header';
-import Conteudo from './componentes/content'
+import Routes from './router'
 
 class App extends Component {
     constructor(props) {
@@ -14,8 +13,7 @@ class App extends Component {
     render(){
         return(
             <>
-                <Header />
-                <Conteudo />
+                <Routes />
             </>
         );
     }

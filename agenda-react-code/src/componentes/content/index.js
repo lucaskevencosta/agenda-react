@@ -16,13 +16,13 @@ class Conteudo extends Component {
         return(
             <>
                 <Content>
-                    <AbaListagemStyle>
-                        <Listagem />
-                    </AbaListagemStyle>
-            
                     <AbaCadastroStyle>
                         <Cadastro/>
                     </AbaCadastroStyle>
+
+                    <AbaListagemStyle>
+                        <Listagem />
+                    </AbaListagemStyle>
                 </Content>
             </>
         );

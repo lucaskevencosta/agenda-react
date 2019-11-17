@@ -10,3 +10,4 @@ Para a construção dessa aplicação foram usados os seguintes serviços:
 - React Router Dom
 - Firebase
 - React Icons
+- Material UI
